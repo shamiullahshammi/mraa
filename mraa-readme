@@ -1,0 +1,17 @@
+Download mraa source
+	$git clone https://github.com/eclipse/mraa.git
+---------------------------------------------------------------
+$cd mraa
+-----------------------------------------------------------
+Apply patches
+-----------------------------------------------------------
+link the sdk toolchain
+-------------------------------------------------------
+$mkdir build
+$cd build
+$cmake ..
+$make
+----------------------------------------------------------
+
+copy libraries from build/src/libmraa* to /lib in target board
+
