@@ -59,7 +59,7 @@ mraa_arm_platform()
                         platform_type = MRAA_BEAGLEBONE;
                     }
                 } else if (strstr(line, "Freescale i.MX6 Ultralite")) {
-                    if(mraa_file_contains("/proc/device-tree/model", "phyBOARD-Segin")) {
+                    if(mraa_file_contains("/proc/device-tree/model", "Rugged Board i.MX6 UltraLite")) {
                         platform_type = MRAA_PHYBOARD_RUGGED_IMX6UL;
                     } else {
                         platform_type = MRAA_PHYBOARD_WEGA;
